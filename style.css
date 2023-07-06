@@ -4,9 +4,13 @@
     --branco: #FFFFFF;
     --laranja: #EB9800;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%,  #326589 165.37%);
+    --fonte-principal:"Poppins";
     }
     body{
     background-color:var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    font-weight: 500;
     }
 
     .cabeçalho-menu-hamburguer {
@@ -20,7 +24,7 @@
 
 
     .cabeçalho {
-        background-color: rgb(164, 228, 198);
+        background-color: rgb(255, 255, 255);;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -49,4 +53,43 @@
         width: 20vw;
     }
 
-    
+    .lista-menu-titulo,
+    .lista-menu-item {
+        padding: 1em;
+        background-color: var(--branco);
+    }
+
+    .lista-menu-titulo {
+        color: var(--laranja);
+        font-weight: 700;}
+
+    .lista-menu-link {
+        background: var(--azul-degrade);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-transform: uppercase;
+    }
+
+    .container-botao {
+        display: none;
+    }
+
+    .lista-menu{
+        display: none;
+    }
+
+    .banner{
+        background-color:rgb(199, 247, 223);;
+        color: #141414;
+        font-size: 22px;
+    }
+
+    .banner-titulo {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .banner-texto {
+        font-weight: 500;
+    }
