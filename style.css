@@ -1,4 +1,12 @@
+.cabeçalho-menu-hamburguer {
+    width: 24px;  
+    height: 24px;
+    background-image: url(./img/Menu.svg);
+    background-repeat: no-repeat;}
 
+  .banner-texto {
+      font-weight: 500;
+  }
 :root{
     --cor-de-fundo:#EBECEE;
     --branco: #FFFFFF;
@@ -88,8 +96,32 @@
     .banner-titulo {
         font-size: 22px;
         font-weight: 700;
+        text-align: center;
     }
 
     .banner-texto {
         font-weight: 500;
+        text-align: center;
+    }
+    .banner-pesquisa{
+        background-color: #EBECEE;
+        border: 1px solid var(--branco);
+        color: #141414;
+        border-radius: 24px;
+        padding: 1em;
+        width: 180%;
+        text-align:center;
+        background: url("./img/lupa.svg")  no-repeat ;
+        background-position: 1em;
+        font-size: 15px;
+        
+
+    }
+    .carrossel-titulo{
+        background-color: var(--branco);
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 1em 0 0.5em 0;
     }
