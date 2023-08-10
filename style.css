@@ -129,4 +129,26 @@
         width: 50%;
     }
         
+    .card-descricao{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0,5em;
+    }
     
+
+    .card-botoes{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .botoes{
+        display: flex;
+    }
+
+    .card {
+        background: rgb(199, 247, 223);;
+        border-radius: 10px;
+        width: 80%;
+        text-align: center;
+    }
+
