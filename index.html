@@ -76,8 +76,7 @@
 </section>
 <section class="carrossel">
     <h2 class="carrossel-titulo"> NOVOS LANÇAMENTOS</h2>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
+    
     <!-- Slider main container -->
 <div class="swiper">
     <!-- Additional required wrapper -->
@@ -95,7 +94,8 @@
       <div class="swiper-slide"><img src="./img/livro10.svg"></div>
       ...
     </div>
-    
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
     
   
 
@@ -119,19 +119,49 @@
 <li><img class="botoes-item" src="./img/Compras.svg"></li>
 
 
-    </u1>
+    </ul>
     <a href="https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?type=design&node-id=113-4103&mode=design&t=Aqrzp5LAnAy6YP44-0" class="botoes-ancora"> Saiba Mais</a>
 
 </div>
 
   </div>
 </section>
+<section class="mais vendidos">
+    <h2 class="titulo-mais-vendidos"> MAIS VENDIDOS</h2>
+     <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="./img/livros1.jpg"></div>
+      <div class="swiper-slide"><img src="./img/livros2.jpg"></div>
+      <div class="swiper-slide"><img src="./img/livros3.jpg"></div>
+      <div class="swiper-slide"><img src="./img/livros4.jpg"></div>
+      <div class="swiper-slide"><img src="./img/livros5.jpg"></div>
+      <div class="swiper-slide"><img src="./img/livros6.jpg"></div>
+      <div class="swiper-slide"><img src="./img/livros7.jpg"></div>
+      <div class="swiper-slide"><img src="./img/livro8.svg"></div>
+      <div class="swiper-slide"><img src="./img/livro9.svg"></div>
+      <div class="swiper-slide"><img src="./img/livro10.svg"></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    
+  
+
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+</section>
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <script>
     const swiper = new Swiper('.swiper', {
         
   spaceBetween: 10,
-  slidesPerView: 4,
+  slidesPerView: 6,
   pagination: {
     el: '.swiper-pagination',
     type: 'bullets',

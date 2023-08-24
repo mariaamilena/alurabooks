@@ -88,7 +88,7 @@
     }
 
     .banner{
-        background-color:rgb(199, 247, 223);;
+        background-color:rgba(168, 146, 135, 0.315);;
         color: #141414;
         font-size: 22px;
     }
@@ -104,16 +104,15 @@
         text-align: center;
     }
     .banner-pesquisa{
-        background-color: #EBECEE;
+        background-color: #0f1011;
         border: 1px solid var(--branco);
         color: #141414;
         border-radius: 24px;
         padding: 1em;
-        width: 180%;
-        text-align: center;
+        width: 100%;
         background: url("./img/lupa.svg") no-repeat;
         background-position: 1em;
-        
+        text-align: center;
         
 
     }
@@ -126,7 +125,8 @@
         padding: 1em 0 0.5em 0;
     }
     .swiper-slide img{
-        width: 50%;
+        width: 70%;
+        padding: 10px 55px;
     }
         
     .card-descricao{
@@ -148,7 +148,19 @@
     .card {
         background: rgb(199, 247, 223);;
         border-radius: 10px;
-        width: 80%;
         text-align: center;
+        padding: 2em;
+        margin: 2em;
     }
 
+    .titulo-mais-vendidos{
+        text-align: center;
+        font-size: 60px;
+        color: #000000;
+        background-color: rgb(199, 247, 223);;
+
+
+    }
+        .botoes-item {
+            margin: 10px 15px;
+        }
