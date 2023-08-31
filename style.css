@@ -164,3 +164,25 @@
         .botoes-item {
             margin: 10px 15px;
         }
+
+        .botoes-ancora {
+         background-color: rgb(184, 171, 171);
+            padding: 1em;
+            margin: 1em 1em;
+            color: #FFFFFF;
+            font-weight: 700;
+            text-decoration: none;
+        }
+        .descricao {
+            font-size: 26px;
+        }
+
+        .topicos {
+            background: var(--azul-degrade);
+            text-align: center;
+        }
+        .titulo-topico {
+            color: #FFFFFF;
+            font-size: 500;
+            font-size: 20px;
+        }
